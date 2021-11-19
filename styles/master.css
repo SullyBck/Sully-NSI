@@ -1,0 +1,145 @@
+/*body*/
+#frame-wrapper {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+
+	overflow: hidden;
+	font-family: 'Montserrat';
+}
+
+/*menu de navigation entre les pages en haut*/
+header {
+	/*positionnement, taille, couleur*/
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	height: 100px;
+	background-color: #b4b0d7;
+
+	/*comportement, espacement des éléments*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	user-select: none;
+}
+
+/*partie du menu avec les liens vers les pages*/
+#main-nav {
+	flex-basis: 60%;
+
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*contenu*/
+section {
+    position: absolute;
+    left: 0; top: 100px; right: 0; bottom: 60px;
+    background-color: white;
+}
+
+/*pied de page*/
+footer {
+	/*position, couleur, taille*/
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 60px;
+	background-color: #eeeeee;
+
+	/*comportement des éléments*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*logo S NSI (menu)*/
+.img-container {
+	flex-basis: 20%;
+}
+#logo {
+	margin: 10px;
+	width: 200px;
+	height: auto;
+}
+
+/*liens (menu)*/
+#main-nav a {
+	font-size: 30px;
+	font-family: Montserrat Black;
+	font-weight: bolder;
+
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #5e61ab;
+}
+#main-nav a:hover {
+	color: #612c84;
+}
+#main-nav .selected {
+	color: #382056;
+}
+#main-nav .selected:hover {
+	color: #382056;
+}
+
+/*pied de page*/
+footer p {
+	font-size: 16px;
+}
+/*logo html en bas à droite*/
+#html5-logo {
+	position: absolute;
+	bottom: 0; right: 0;
+
+	background-image: url("../imgs/html5.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+	display: block;
+    height: 60px;
+	width: 60px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*lien vers site du lycée en bas à gauche*/
+#lycee-logo {
+	position: absolute;
+	bottom: 0; left: 10px;
+
+	background-image: url("../imgs/lycee.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+	display: block;
+    height: 60px;
+	width: 60px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Police personnalisée partout sur le site*/
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Montserrat-Regular.woff") format("woff");
+	}
+	@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	src: url("../fonts/Montserrat-Bold.woff") format("woff");
+	}
+	@font-face {
+	font-family: 'Montserrat Black';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/Montserrat-Black.woff") format("woff");
+	}
+	

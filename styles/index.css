@@ -1,0 +1,6 @@
+/*pour centrer l'illustration d'accueil*/
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}

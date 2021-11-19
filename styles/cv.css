@@ -1,0 +1,93 @@
+section {
+  overflow-y: scroll;
+}
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titre {
+  position: relative;
+  top: 30px;
+  height: 100px;
+	background-color: #5e61ab;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.titre p {
+  font-size: 40px;
+  text-align: center;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.profil {
+  position: relative;
+  top: 50px; left: -310px;
+}
+
+.profil h1 {
+  font-size: 24px;
+  color: #7876b8;
+}
+.profil h2 {
+  font-size: 24px;
+  color: #612c84;
+}
+
+#pdp {
+  position: relative;
+  top: -220px; left: 510px;
+
+  height: 250px;
+  width: auto;
+}
+.contact {
+  position: relative;
+  top: -420px; left: 350px;
+
+  font-size: 20px;
+}
+
+.bandeau {
+  position: relative;
+  background-color: #7876b8;
+  height: 50px;
+  top: -420px;
+
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.bandeau p {
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.presentation {
+  position: relative;
+  top: -400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 30px;
+}
+
+.right {
+  margin-left: -450px;
+}
+.left {
+  margin-right: -450px;
+}
+
+.presentation h1 {
+  font-size: 24px;
+  color: #7876b8;
+}
+.presentation h2 {
+  font-size: 30px;
+  color: #612c84;
+}

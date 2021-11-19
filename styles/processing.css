@@ -1,0 +1,112 @@
+/*table of content : menu affiché sur la gauche pour naviguer dans la page*/
+#toc {
+	position: absolute;
+	left: 100px; top: 100px; bottom: 60px;
+	width: 200px;
+
+	padding: 25px;
+
+	z-index: 1;
+	overflow-y: scroll; /*pouvoir défiler dans le menu (fenêtre plus petites)*/
+	scrollbar-width: none; /*cacher la scrollbar sur firefox*/
+}
+#toc::-webkit-scrollbar { /*cacher la scrollbar sur edge*/
+    display: none;
+}
+#toc h2 {
+	color: #382056;
+	font-size: 25px;
+}
+#toc h3 {
+	font-size: 18px;
+	color: #382056;
+}
+#toc a {
+	color: #5e61ab;
+}
+#toc h3:hover, #toc a:hover {
+	color: #612c84;
+}
+ol {
+	list-style-type: none;
+	padding-left: 0px;
+	font-size: 16px;
+}
+ul {
+	padding-left: 25px;
+	list-style: none;
+	font-size: 14px;
+}
+li {
+	padding: 5px;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+
+/*contenu*/
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+	overflow-y: scroll;
+}
+section #content {
+	max-width: 50%;
+	position: relative;
+	left: 30px
+}
+section h1 {
+	font-size: 36px;
+	color: #612c84;
+
+	padding: 20px;
+	text-align: center;
+}
+section h2 {
+	font-size: 28px;
+	color: #382056;
+}
+section h3 {
+	font-size: 22px;
+	color: #5e61ab;
+}
+section h4 {
+	font-size: 18px;
+}
+section p {
+	font-size: 17px;
+}
+section em {
+	text-decoration: underline;
+}
+.syntaxe {
+	white-space: pre; /*pour que tous les espaces s'affichent, mise en page*/
+}
+
+/*images du cours (placements)*/
+#logo-processing {
+	float: right;
+	margin: 0 0 30px 30px;
+}
+#window {
+	float: right;
+	margin: 0 0 30px 50px;
+	width: auto;
+	height: 350px;
+}
+#graph {
+	float: left;
+	margin: 0 10px 0 0;
+	width: auto;
+	height: 200px;
+}
+#tableau {
+	float: right;
+	margin: 0 0 30px 50px;
+	width: auto;
+	height: 300px;
+}

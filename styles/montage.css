@@ -1,0 +1,46 @@
+/*contenu*/
+section {
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*video*/
+iframe {
+	position: relative;
+	top: 30px;
+}
+
+section .txt {
+	max-width: 50%; /* limiter txt à 50% de largeur*/
+	top: 50px;
+	font-size: 20px;
+	margin: auto; /* centrer txt*/
+	text-align: center;
+}
+
+/* realisations, 100% de largeur*/
+section .reals{
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 200px;
+}
+
+h2{
+	font-size: 40px;
+	color: #7876b8;
+}
+h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: #382056;
+}
+img{
+
+}
+section p{
+	font-size: 30px;
+}
