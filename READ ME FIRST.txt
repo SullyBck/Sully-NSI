@@ -1,2 +1,0 @@
-﻿base sur firefox principalement (mais a priori fonctionnel sur chrome edge et safari)
-1920x1080 essentiellement mais plutot ajustable (testez de reduire la fenetre)
