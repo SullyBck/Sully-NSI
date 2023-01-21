@@ -1,6 +1,5 @@
 # Sully-NSI
-Premier site web, à rendre à M. Mercier.
-
-basé sur firefox principalement (mais a priori fonctionnel sur chrome edge et safari)
-1920x1080 essentiellement mais plutot ajustable (testez de reduire la fenetre)
+Premier site web, pour un projet en classe de Première en spécialité NSI.
 j'ai publié le site grâce à GitHub, lien : https://sullybck.github.io/Sully-NSI/docs/
+basé sur firefox principalement, 1920x1080
+
